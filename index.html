@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b56b143862.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="sub-nav">
+            <div class="nav-img">
+                <h2 onclick="home()" style="cursor: pointer;">MovieMaven</h2>
+            </div>
+            <div class="nav-txt">
+                <h2 onclick="home()" style="cursor: pointer;">Home</h2>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="home-page">
+            <input type="text" class="search-txt" placeholder=" Search a movie">
+            <div class="search" onclick="searchValue()" style="cursor: pointer;">Search</div>
+        </div>
+        <div class="search-result hidden"></div>
+        <div class="result-clicked hidden"></div>
+    </main>
+    <footer>
+        <div class="contact-me">
+            <a href="https://www.linkedin.com/in/meron-muluye-9933371b7/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/merraa" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p class="signature">Developed by Meron Muluye</p>
+    </footer>
+</body>
+</html>
