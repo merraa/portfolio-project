@@ -1,7 +1,6 @@
 ## Movie Searching Site
 
 This movie-searching site allows users to search for movies by title. Users can also browse through a list of popular movies or new releases.
-![Screenshot of the website](Screen Shot 2023-10-17.png)
 
 Installation
 To install this project, clone the repository and run the following command:
