@@ -20,8 +20,8 @@ To search for a movie, enter the title of the movie in the search bar and press 
 
 ## Features
 
-Search for movies by title
-Browse through a list of popular movies or new releases
+Search for movies by title, 
+Browse through a list of popular movies or new releases, 
 View movie details, including the title, release date, genre, cast, and plot summary
 
 
